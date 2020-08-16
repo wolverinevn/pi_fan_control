@@ -1,5 +1,6 @@
 # pi_fan_control
-Control cooling fan speed on Rasperry Pi using a mosfet
+Control cooling fan speed on Rasperry Pi using a mosfet.
+Guide-VI: https://konnected.vn/tech/raspberry-pi-tan-nhiet-chu-dong-theo-cpu-2020-08-16
 
 Including:
 + Py program to controll Fan speed
