@@ -10,6 +10,15 @@ Including:
 + Program will be auto-run with highest priority
 
 
-## Wiring
+## WIRING
 
 ![panel card screenshot](https://github.com/wolverinevn/pi_fan_control/blob/master/konnected_vn_Pi-Fan-Control-8-16-2020.jpg?raw=true "Wriring Diagram")
+
+## INSTALL
+
+```
+curl -sL https://github.com/wolverinevn/pi_fan_control/releases/download/v0.1/pi_fan.zip -o pi_fan.zip
+unzip pi_fan.zip && rm pi_fan.zip
+cd pi_fan
+sudo ./install.sh
+```
