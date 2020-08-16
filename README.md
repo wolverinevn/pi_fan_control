@@ -7,7 +7,7 @@ Including:
 + python program to controll Fan speed
 + Configuration file
 + Installer script to install all dependencies and enable program at boot
-+ Program will auto-run with highest priority
++ Program will be auto-run with highest priority
 
 
 ## Wiring
