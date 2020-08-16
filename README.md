@@ -8,4 +8,4 @@ Including:
 
 ## Wiring
 
-![panel card screenshot](https://github.com/konnectedvn/lovelace-vertical-slider-cover-card/blob/master/src/konnected_vn_Pi-Fan-Control-8-16-2020.jpg?raw=true "Wriring Diagram")
+![panel card screenshot](https://github.com/wolverinevn/pi_fan_control/blob/master/konnected_vn_Pi-Fan-Control-8-16-2020.jpg?raw=true "Wriring Diagram")
