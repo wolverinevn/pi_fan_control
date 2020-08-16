@@ -1,0 +1,16 @@
+{
+"name" : "Pi Fan Control",
+"script" : "pi_fan.py",
+"author" : "konnectED.vn",
+"args" :
+  {
+    "pin" : 17,
+    "wait_time" : 3,
+	"temp_steps" : [50, 70],
+	"speed_steps" : [0, 100],
+	"fan_min" : 40,
+	"pwm_freq" : 25,
+	"hysteresis" : 1,
+	"gpio-mode" : "BCM"
+  }
+}
