@@ -6,9 +6,9 @@
   {
     "pin" : 17,
     "wait_time" : 3,
-	"temp_steps" : [50, 70],
-	"speed_steps" : [0, 100],
-	"fan_min" : 40,
+	"temp_steps" : [45, 70],
+	"speed_steps" : [30, 100],
+	"fan_min" : 30,
 	"pwm_freq" : 25,
 	"hysteresis" : 1,
 	"gpio-mode" : "BCM"

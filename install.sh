@@ -83,15 +83,15 @@ if [ "" == "$python3_status" ]; then
 fi
 
 #check if rpi.gpio is enabled
-rpigpio_status=$( find /usr | grep -i rpi.gpio)
-if [ "" == "$rpigpio_status" ]; then
+rpigpio_status=$( python3 -c "import RPi.GPIO" )
+if [ $? == 1 ]; then
   echo "RPI.GPIO is not installed yet. Install now? (Y/n)"
   if [ ! "$arg" == "-a" ]; then
     read rpigpio_install
   fi
   
   if [ "$rpigpio_install" == "y" ] || [ "$rpigpio_install" == "Y" ] || [ "$rpigpio_install" == "" ]; then
-    pip3 install RPi.GPIO
+    sudo apt-get install python3-rpi.gpio
   else
     echo "Exit. CPU Fan Control is not installed."
     exit 1;
